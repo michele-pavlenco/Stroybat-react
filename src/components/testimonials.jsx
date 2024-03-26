@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigation, Pagination, Autoplay, A11y } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -13,14 +13,15 @@ export const Testimonials = (props) => {
 				<h2>NOS CLIENTS</h2>
 			</div>
 			<Swiper
-				modules={[Navigation, Pagination, Autoplay, A11y]}
+				modules={[Autoplay]}
 				spaceBetween={20}
 				slidesPerView={4}
 				loop={true}
-				autoplay={{
-					delay: 1000,
-					disableOnInteraction: false,
-				}}>
+				freeMode={true}
+				autoplay={{ delay: 0, disableOnInteraction: false }}
+				autoplayDisableOnInteraction={false}
+				speed={6000}
+				allowTouchMove={false}>
 				{props.data
 					? props.data.map((d, i) => (
 							<SwiperSlide
