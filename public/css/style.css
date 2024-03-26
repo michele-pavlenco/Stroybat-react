@@ -406,7 +406,7 @@ header .intro-text {
 #testimonials {
 	padding: 100px 0;
 	background: #f6f6f6;
-	height: 500px;
+	/* height: 500px; */
 }
 #testimonials i {
 	color: #e6e6e6;
@@ -700,4 +700,9 @@ label {
 	-ms-user-select: none; /* IE10+/Edge */
 	user-select: none; /* Standard */
 	pointer-events: none; /* Prevents clicking and dragging */
+	mix-blend-mode: multiply;
+}
+
+.swiper-wrapper {
+	max-height: 100% !important;
 }

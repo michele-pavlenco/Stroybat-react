@@ -21,7 +21,10 @@ export const Testimonials = (props) => {
 				autoplay={{ delay: 0, disableOnInteraction: false }}
 				autoplayDisableOnInteraction={false}
 				speed={6000}
-				allowTouchMove={false}>
+				allowTouchMove={false}
+				style={{
+					maxHeight: "200px",
+				}}>
 				{props.data
 					? props.data.map((d, i) => (
 							<SwiperSlide
