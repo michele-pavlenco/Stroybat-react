@@ -216,8 +216,9 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 }
+
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgb(21 21 21 / 76%);
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -248,6 +249,7 @@ header .intro-text {
 /* Features Section */
 #features {
   background: #f6f6f6;
+  padding: 70px 0px 40px 0px;
 }
 #features i.fa {
   font-size: 38px;
