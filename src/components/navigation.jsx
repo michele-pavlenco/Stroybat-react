@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../img/logoStroybat.png"
 
 export const Navigation = (props) => {
   return (
@@ -18,12 +19,12 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            Stroybat
+            <img className="nav-logo" src={Logo} alt="Logo"/>
           </a>{" "}
         </div>
 
         <div
-          className="collapse navbar-collapse"
+            className="collapse navbar-collapse"
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">

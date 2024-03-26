@@ -80,12 +80,16 @@ hr {
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
-#menu a.navbar-brand {
+/*#menu a.navbar-brand {
 	font-family: "Raleway", sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	color: #333;
 	text-transform: uppercase;
+}*/
+img.nav-logo {
+	width: 130px;
+	margin-top: -6px;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: "Lato", sans-serif;
@@ -223,7 +227,7 @@ a:focus,
 .intro h1 {
 	font-family: "Raleway", sans-serif;
 	color: #fff;
-	font-size: 82px;
+	font-size: 70px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 0;

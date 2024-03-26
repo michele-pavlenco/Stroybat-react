@@ -20,8 +20,8 @@ export const Testimonials = (props) => {
 				freeMode={true}
 				autoplay={{ delay: 0, disableOnInteraction: false }}
 				autoplayDisableOnInteraction={false}
-				speed={6000}
-				allowTouchMove={false}
+				speed={7000}
+			/*	allowTouchMove={false}  da attivare solo per mobile     */
 				style={{
 					maxHeight: "200px",
 				}}>
