@@ -24,7 +24,7 @@ export const Contact = (props) => {
     {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
     
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm("service_qsa3swb", "template_3omzl34", e.target, "qrG-omw3Xyx432NGV")
       .then(
         (result) => {
           console.log(result.text);
@@ -53,13 +53,13 @@ export const Contact = (props) => {
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="form-control"
-                        placeholder="Name"
-                        required
-                        onChange={handleChange}
+                          type="text"
+                          id="name"
+                          name="from_name" // Modificato da user_name a from_name
+                          className="form-control"
+                          placeholder="Name"
+                          required
+                          onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -67,13 +67,13 @@ export const Contact = (props) => {
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        className="form-control"
-                        placeholder="Email"
-                        required
-                        onChange={handleChange}
+                          type="email"
+                          id="email"
+                          name="reply_to" // Modificato da user_email a reply_to
+                          className="form-control"
+                          placeholder="Email"
+                          required
+                          onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -81,8 +81,8 @@ export const Contact = (props) => {
                 </div>
                 <div className="form-group">
                   <textarea
-                    name="message"
-                    id="message"
+                      name="message"
+                      id="message"
                     className="form-control"
                     rows="4"
                     placeholder="Message"
