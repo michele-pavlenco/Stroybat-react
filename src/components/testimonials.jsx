@@ -18,9 +18,9 @@ export const Testimonials = (props) => {
 				slidesPerView={4}
 				loop={true}
 				freeMode={true}
-				autoplay={{ delay: 0, disableOnInteraction: false }}
+				autoplay={{ delay: 0, disableOnInteraction: true }}
 				autoplayDisableOnInteraction={false}
-				speed={7000}
+				speed={3000}
 			/*	allowTouchMove={false}  da attivare solo per mobile     */
 				style={{
 					maxHeight: "200px",

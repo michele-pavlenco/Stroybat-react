@@ -425,6 +425,10 @@ header .intro-text {
 	float: left;
 	margin-right: 15px;
 }
+div#testimonials img {
+	max-height: 160px;
+	object-fit: contain;
+}
 .testimonial-image,
 .testimonial-image img {
 	display: block;

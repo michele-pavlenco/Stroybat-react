@@ -8,18 +8,22 @@ const Project = () => {
 		<div>
 			{JsonData.Gallery.filter((d) => d.title === params.projectId).map(
 				(d, i) => (
-					<div key={d.title}>
-						<h1>{d.title}</h1>
-						<p>{d.description}</p>
-						<img
-							src={d.largeImage}
-							alt=""
-						/>
-					</div>
-				)
-			)}
-		</div>
-	);
+                    <div key={d.title}>
+                        <img
+                            src={d.productImage}
+                            alt={d.title}
+                        />
+                        <h1>{d.title}</h1>
+                        <p>{d.description}</p>
+
+                        {d.images && d.images.map((image, index) => (
+                            <img key={index} src={image.url} alt={`${d.title} - ${index + 1}`}/>
+                        ))}
+                    </div>
+                )
+            )}
+        </div>
+    );
 };
 
 export default Project;
