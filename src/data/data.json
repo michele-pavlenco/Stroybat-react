@@ -19,8 +19,14 @@
   "Gallery": [
     {
       "title": "Loovre",
+      "description": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus, massa non tristique posuere, turpis justo tristique dui, id cursus arcu metus et orci. Mauris luctus quam quis convallis volutpat. Sed fermentum, velit nec mattis tempus, dolor magna commodo mi, nec accumsan mauris massa fringilla urna. Vestibulum id dui sapien. Mauris lobortis pharetra lorem, eu tempor justo hendrerit sit amet. Morbi ac dolor arcu. Aenean at ultricies ex. Maecenas dapibus tortor in convallis aliquam. Phasellus massa dolor, consequat a erat ut, mollis varius nisi. Nullam ultricies, eros ut pretium bibendum, tellus risus venenatis lorem, ut egestas ante elit nec purus.\n\n ",
+      "product-image": "img/portfolio/01-small.jpeg",
+      "images": [
+        "img/portfolio/01-large.jpeg",
+        "img/portfolio/01-large.jpeg",
+        "img/portfolio/01-large.jpeg"
+      ],
       "largeImage": "img/portfolio/01-large.jpeg",
-      "largeImage2": "img/portfolio/02-large.jpeg",
       "smallImage": "img/portfolio/01-small.jpeg"
     },
     {
