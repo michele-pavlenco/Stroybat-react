@@ -8,33 +8,40 @@ import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 /*import { Team } from "./components/Team"; */
 import { Contact } from "./components/contact";
+import Project from "./components/project"
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+import Home from "./pages/Home"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
+import NotFoundPage from "./pages/NotFoundPage";
 
-export const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 1000,
-  speedAsDuration: true,
-});
+// export const scroll = new SmoothScroll('a[href*="#"]', {
+//   speed: 1000,
+//   speedAsDuration: true,
+// });
 
 const App = () => {
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
+  // const [landingPageData, setLandingPageData] = useState({});
+  // useEffect(() => {
+  //   setLandingPageData(JsonData);
+  // }, []);
 
   return (
-    <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
-      <Testimonials data={landingPageData.Testimonials} />
-      {/* <Team data={landingPageData.Team} /> */}
-      <Contact data={landingPageData.Contact} />
-    </div>
+      <BrowserRouter>
+          <Routes>
+             <Route
+                index
+                element={<Home/>}
+             />
+              <Route
+                  path="project/:projectId"
+                  // path="project"
+                  element={<Project/>}
+              />
+              <Route path='*' element={<NotFoundPage />} />
+          </Routes>
+      </BrowserRouter>
   );
 };
 
