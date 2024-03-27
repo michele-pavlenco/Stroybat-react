@@ -1,214 +1,206 @@
 {
-  "Header": {
-    "title": "Stroybat",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
-  },
-  "About": {
-    "paragraph": "Dans le monde de l’architecture en constante évolution, choisir un partenaire fiable est essentiel pour créer des projets qui se démarquent et qui durent dans le temps. Notre entreprise se distingue par son dévouement, son souci du détail, son innovation constante et sa polyvalence dans son service. C'est pourquoi nous choisir, c'est choisir la qualité, l'innovation et des solutions durables.",
-    "Why": [
-      "Garanties",
-      "Qualifié",
-      "Attention au détail",
-      "Innovant"
-    ],
-    "Why2": [
-      "Solide",
-      "Polyvalent"
-    ]
-  },
-  "Gallery": [
-    {
-      "title": "Loovre",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus, massa non tristique posuere, turpis justo tristique dui, id cursus arcu metus et orci. Mauris luctus quam quis convallis volutpat. Sed fermentum, velit nec mattis tempus, dolor magna commodo mi, nec accumsan mauris massa fringilla urna. Vestibulum id dui sapien. Mauris lobortis pharetra lorem, eu tempor justo hendrerit sit amet. Morbi ac dolor arcu. Aenean at ultricies ex. Maecenas dapibus tortor in convallis aliquam. Phasellus massa dolor, consequat a erat ut, mollis varius nisi. Nullam ultricies, eros ut pretium bibendum, tellus risus venenatis lorem, ut egestas ante elit nec purus. ",
-      "productImage": "img/portfolio/01-small.jpeg",
-      "images": [
-        "img/portfolio/01-large.jpeg",
-        "img/portfolio/01-large.jpeg",
-        "img/portfolio/01-large.jpeg"
-      ],
-      "largeImage": "img/portfolio/01-large.jpeg",
-      "productImage": "img/portfolio/01-small.jpeg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "productImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "productImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "productImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "productImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "productImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "productImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "productImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "productImage": "img/portfolio/09-small.jpg"
-    }
-  ],
-  "Services": [
-    {
-      "icon": "fa fa-building",
-      "name": "Facades Modernes",
-      "text": "Some Text?"
-    },
-    {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Bardage",
-      "text": "Some Text?"
-    },
-    {
-      "icon": "fa fa-cloud-download",
-      "name": "Vitrage",
-      "text": "Some Text?"
-    }
-  ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/Legendre.png",
-      "text": "\"Some Text?\"",
-      "name": "Legendre"
-    },
-    {
-      "img": "img/testimonials/Smac.png",
-      "text": "\"Some Text?\"",
-      "name": "Smac"
-    },
-    {
-      "img": "img/testimonials/Sev.png",
-      "text": "\"Some Text?\"",
-      "name": "Sev IDF"
-    },
-    {
-      "img": "img/testimonials/Eiffage.png",
-      "text": "\"Some Text?\"",
-      "name": "Eiffage"
-    },
-    {
-      "img": "img/testimonials/Ecbm.png",
-      "text": "\"Some Text?\"",
-      "name": "Ecbm"
-    },
-    {
-      "img": "img/testimonials/AluDesign.png",
-      "text": "\"Some Text?\"",
-      "name": "AluDesign"
-    },
-    {
-      "img": "img/testimonials/Colas.png",
-      "text": "\"Some Text?\"",
-      "name": "Colas"
-    },
-    {
-      "img": "img/testimonials/NEXITY.png",
-      "text": "\"Some Text?\"",
-      "name": "NEXITY"
-    },
-    {
-      "img": "img/testimonials/SpieBatignolles.png",
-      "text": "\"Some Text?\"",
-      "name": "SpieBatignolles"
-    },
-    {
-      "img": "img/testimonials/Urbaine.jpeg",
-      "text": "\"Some Text?\"",
-      "name": "Urbaine"
-    },
-    {
-      "img": "img/testimonials/Gcc.png",
-      "text": "\"Some Text?\"",
-      "name": "Gcc"
-    },
-    {
-      "img": "img/testimonials/IsoSystem.jpeg",
-      "text": "\"Some Text?\"",
-      "name": "IsoSystem"
-    },
-    {
-      "img": "img/testimonials/Isor.png",
-      "text": "\"Some Text?\"",
-      "name": "IsoSystem"
-    },
-    {
-      "img": "img/testimonials/Brezillon.jpeg",
-      "text": "\"Some Text?\"",
-      "name": "IsoSystem"
-    }
-  ],
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
-    }
-  ],
-  "Contact": {
-    "address": "90 Avenue de Boneuil 94210 Saint-Maur-des-Fosses",
-    "phone": "+33 6 43 31 21 80",
-    "email": "contact@stroybat.fr",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
-  },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+	"Header": {
+		"title": "Stroybat",
+		"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+	},
+	"About": {
+		"paragraph": "Dans le monde de l’architecture en constante évolution, choisir un partenaire fiable est essentiel pour créer des projets qui se démarquent et qui durent dans le temps. Notre entreprise se distingue par son dévouement, son souci du détail, son innovation constante et sa polyvalence dans son service. C'est pourquoi nous choisir, c'est choisir la qualité, l'innovation et des solutions durables.",
+		"Why": ["Garanties", "Qualifié", "Attention au détail", "Innovant"],
+		"Why2": ["Solide", "Polyvalent"]
+	},
+	"Gallery": [
+		{
+			"title": "Loovre",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus, massa non tristique posuere, turpis justo tristique dui, id cursus arcu metus et orci. Mauris luctus quam quis convallis volutpat. Sed fermentum, velit nec mattis tempus, dolor magna commodo mi, nec accumsan mauris massa fringilla urna. Vestibulum id dui sapien. Mauris lobortis pharetra lorem, eu tempor justo hendrerit sit amet. Morbi ac dolor arcu. Aenean at ultricies ex. Maecenas dapibus tortor in convallis aliquam. Phasellus massa dolor, consequat a erat ut, mollis varius nisi. Nullam ultricies, eros ut pretium bibendum, tellus risus venenatis lorem, ut egestas ante elit nec purus. ",
+			"productImage": "./img/portfolio/01-small.jpeg",
+			"images": [
+				{ "url": "./img/portfolio/01-large.jpeg" },
+				{ "url": "./img/portfolio/01-large.jpeg" },
+				{ "url": "./img/portfolio/01-large.jpeg" }
+			],
+			"largeImage": "./img/portfolio/01-large.jpeg"
+		},
+		{
+			"title": "Project2",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus, massa non tristique posuere, turpis justo tristique dui, id cursus arcu metus et orci. Mauris luctus quam quis convallis volutpat. Sed fermentum, velit nec mattis tempus, dolor magna commodo mi, nec accumsan mauris massa fringilla urna. Vestibulum id dui sapien. Mauris lobortis pharetra lorem, eu tempor justo hendrerit sit amet. Morbi ac dolor arcu. Aenean at ultricies ex. Maecenas dapibus tortor in convallis aliquam. Phasellus massa dolor, consequat a erat ut, mollis varius nisi. Nullam ultricies, eros ut pretium bibendum, tellus risus venenatis lorem, ut egestas ante elit nec purus. ",
+			"largeImage": "img/portfolio/02-large.jpg",
+			"productImage": "img/portfolio/02-small.jpg"
+		},
+		{
+			"title": "Project3",
+			"largeImage": "img/portfolio/03-large.jpg",
+			"productImage": "img/portfolio/03-small.jpg"
+		},
+		{
+			"title": "Project Title",
+			"largeImage": "img/portfolio/04-large.jpg",
+			"productImage": "img/portfolio/04-small.jpg"
+		},
+		{
+			"title": "Project Title",
+			"largeImage": "img/portfolio/05-large.jpg",
+			"productImage": "img/portfolio/05-small.jpg"
+		},
+		{
+			"title": "Project Title",
+			"largeImage": "img/portfolio/06-large.jpg",
+			"productImage": "img/portfolio/06-small.jpg"
+		},
+		{
+			"title": "Project Title",
+			"largeImage": "img/portfolio/07-large.jpg",
+			"productImage": "img/portfolio/07-small.jpg"
+		},
+		{
+			"title": "Project Title",
+			"largeImage": "img/portfolio/08-large.jpg",
+			"productImage": "img/portfolio/08-small.jpg"
+		},
+		{
+			"title": "Project Title",
+			"largeImage": "img/portfolio/09-large.jpg",
+			"productImage": "img/portfolio/09-small.jpg"
+		}
+	],
+	"Services": [
+		{
+			"icon": "fa fa-building",
+			"name": "Facades Modernes",
+			"text": "Some Text?"
+		},
+		{
+			"icon": "fa fa-cart-arrow-down",
+			"name": "Bardage",
+			"text": "Some Text?"
+		},
+		{
+			"icon": "fa fa-cloud-download",
+			"name": "Vitrage",
+			"text": "Some Text?"
+		}
+	],
+	"Testimonials": [
+		{
+			"img": "img/testimonials/Legendre.png",
+			"text": "\"Some Text?\"",
+			"name": "Legendre"
+		},
+		{
+			"img": "img/testimonials/Smac.png",
+			"text": "\"Some Text?\"",
+			"name": "Smac"
+		},
+		{
+			"img": "img/testimonials/Sev.png",
+			"text": "\"Some Text?\"",
+			"name": "Sev IDF"
+		},
+		{
+			"img": "img/testimonials/Eiffage.png",
+			"text": "\"Some Text?\"",
+			"name": "Eiffage"
+		},
+		{
+			"img": "img/testimonials/Ecbm.png",
+			"text": "\"Some Text?\"",
+			"name": "Ecbm"
+		},
+		{
+			"img": "img/testimonials/AluDesign.png",
+			"text": "\"Some Text?\"",
+			"name": "AluDesign"
+		},
+		{
+			"img": "img/testimonials/Colas.png",
+			"text": "\"Some Text?\"",
+			"name": "Colas"
+		},
+		{
+			"img": "img/testimonials/NEXITY.png",
+			"text": "\"Some Text?\"",
+			"name": "NEXITY"
+		},
+		{
+			"img": "img/testimonials/SpieBatignolles.png",
+			"text": "\"Some Text?\"",
+			"name": "SpieBatignolles"
+		},
+		{
+			"img": "img/testimonials/Urbaine.jpeg",
+			"text": "\"Some Text?\"",
+			"name": "Urbaine"
+		},
+		{
+			"img": "img/testimonials/Gcc.png",
+			"text": "\"Some Text?\"",
+			"name": "Gcc"
+		},
+		{
+			"img": "img/testimonials/IsoSystem.jpeg",
+			"text": "\"Some Text?\"",
+			"name": "IsoSystem"
+		},
+		{
+			"img": "img/testimonials/Isor.png",
+			"text": "\"Some Text?\"",
+			"name": "IsoSystem"
+		},
+		{
+			"img": "img/testimonials/Brezillon.jpeg",
+			"text": "\"Some Text?\"",
+			"name": "IsoSystem"
+		}
+	],
+	"Team": [
+		{
+			"img": "img/team/01.jpg",
+			"name": "John Doe",
+			"job": "Director"
+		},
+		{
+			"img": "img/team/02.jpg",
+			"name": "Mike Doe",
+			"job": "Senior Designer"
+		},
+		{
+			"img": "img/team/03.jpg",
+			"name": "Jane Doe",
+			"job": "Senior Designer"
+		},
+		{
+			"img": "img/team/04.jpg",
+			"name": "Karen Doe",
+			"job": "Project Manager"
+		}
+	],
+	"Contact": {
+		"address": "90 Avenue de Boneuil 94210 Saint-Maur-des-Fosses",
+		"phone": "+33 6 43 31 21 80",
+		"email": "contact@stroybat.fr",
+		"facebook": "fb.com",
+		"twitter": "twitter.com",
+		"youtube": "youtube.com"
+	},
+	"Features": [
+		{
+			"icon": "fa fa-comments-o",
+			"title": "Lorem ipsum",
+			"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+		},
+		{
+			"icon": "fa fa-bullhorn",
+			"title": "Lorem ipsum",
+			"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+		},
+		{
+			"icon": "fa fa-group",
+			"title": "Lorem ipsum",
+			"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+		},
+		{
+			"icon": "fa fa-magic",
+			"title": "Lorem ipsum",
+			"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+		}
+	]
 }
