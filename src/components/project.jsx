@@ -1,11 +1,16 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import JsonData from "../data/data.json";
+import {Navigation} from "./navigation";
+import "../App";
+
 const Project = () => {
 	let params = useParams();
 
 	return (
+
 		<div>
+			<Navigation/>
 			{JsonData.Gallery.filter((d) => d.title === params.projectId).map((d) => (
 				<div
 					className="project"
@@ -27,21 +32,28 @@ const Project = () => {
 							</div>
 						</div>
 					</header>
-					{/* <img
-						className="project-hero-img"
-						src={d.productImage}
-						alt={d.title}
-					/> */}
-					<p>{d.description}</p>
+
+					<div className="project-description">
+					<div className="container">
+
+						<p>{d.description}</p>
+					</div>
+					</div>
+
 
 					<div className="slideshowimages">
 						{d.images &&
 							d.images.map((image, index) => (
+								<div className="card">
+
+
+
 								<img
 									key={index}
 									src={image.url}
 									alt={`${d.title} - ${index + 1}`}
 								/>
+								</div>
 							))}
 					</div>
 				</div>

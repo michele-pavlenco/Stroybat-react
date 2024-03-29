@@ -758,11 +758,34 @@ label {
 	width: 100% !important;
 }
 .slideshowimages {
+	background-color: black;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
+	padding: 50px 0px;
 }
-.slideshowimages img {
+.slideshowimages .card{
+	width:80%;
+	margin: 0 auto;
+	padding: 10px;
+}
+.slideshowimages .card img {
+	width: 100%;
+	border: 2px solid red ;
+}
+
+
+
+.project-description{
+	background-color: #f6f6f6;
+	padding: 100px 0;
+
+}
+.project-description .container{
 	width: 80%;
+	margin: 0 auto;
 }
+
+/* END Project page*/
