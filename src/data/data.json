@@ -10,89 +10,123 @@
 	},
 	"Gallery": [
 		{
-			"title": "Loovre",
+			"title": "Chalabre",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus, massa non tristique posuere, turpis justo tristique dui, id cursus arcu metus et orci. Mauris luctus quam quis convallis volutpat. Sed fermentum, velit nec mattis tempus, dolor magna commodo mi, nec accumsan mauris massa fringilla urna. Vestibulum id dui sapien. Mauris lobortis pharetra lorem, eu tempor justo hendrerit sit amet. Morbi ac dolor arcu. Aenean at ultricies ex. Maecenas dapibus tortor in convallis aliquam. Phasellus massa dolor, consequat a erat ut, mollis varius nisi. Nullam ultricies, eros ut pretium bibendum, tellus risus venenatis lorem, ut egestas ante elit nec purus. ",
 			"productImage": "../img/projects/Chalabre/IMG_1736.JPEG",
 			"images": [
-				{ "url": "../img/portfolio/01-large.jpeg" },
-				{ "url": "../img/portfolio/01-large.jpeg" },
-				{ "url": "../img/portfolio/01-large.jpeg" }
+				{ "url": "../img/projects/Chalabre/IMG_1766.JPEG" },
+				{ "url": "../img/projects/Chalabre/IMG_6533.JPG" },
+				{ "url": "../img/projects0/Chalabre/IMG_6534.JPG" },
+				{ "url": "../img/projects0/Chalabre/IMG_6536.JPG" }
 			]
 		},
 		{
-			"title": "Test2",
+			"title": "Colege",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus, massa non tristique posuere, turpis justo tristique dui, id cursus arcu metus et orci. Mauris luctus quam quis convallis volutpat. Sed fermentum, velit nec mattis tempus, dolor magna commodo mi, nec accumsan mauris massa fringilla urna. Vestibulum id dui sapien. Mauris lobortis pharetra lorem, eu tempor justo hendrerit sit amet. Morbi ac dolor arcu. Aenean at ultricies ex. Maecenas dapibus tortor in convallis aliquam. Phasellus massa dolor, consequat a erat ut, mollis varius nisi. Nullam ultricies, eros ut pretium bibendum, tellus risus venenatis lorem, ut egestas ante elit nec purus. ",
-			"productImage": "../img/portfolio/02-small.jpg",
+			"productImage": "../img/projects/Colege/PHOTO-2023-11-21-10-55-05.jpg",
 			"images": [
-				{ "url": "../img/portfolio/02-large.jpg" },
-				{ "url": "../img/portfolio/02-large.jpg" },
-				{ "url": "../img/portfolio/02-large.jpg" }
+				{ "url": "../img/projects/Colege/IMG_3900.JPG" },
+				{ "url": "../img/projects/Colege/PHOTO-2023-11-21-10-55-05.jpg" }
 			]
 		},
 		{
-			"title": "test3",
+			"title": "Disney",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus, massa non tristique posuere, turpis justo tristique dui, id cursus arcu metus et orci. Mauris luctus quam quis convallis volutpat. Sed fermentum, velit nec mattis tempus, dolor magna commodo mi, nec accumsan mauris massa fringilla urna. Vestibulum id dui sapien. Mauris lobortis pharetra lorem, eu tempor justo hendrerit sit amet. Morbi ac dolor arcu. Aenean at ultricies ex. Maecenas dapibus tortor in convallis aliquam. Phasellus massa dolor, consequat a erat ut, mollis varius nisi. Nullam ultricies, eros ut pretium bibendum, tellus risus venenatis lorem, ut egestas ante elit nec purus. ",
-			"productImage": "../img/portfolio/03-small.jpg",
+			"productImage": "../img/projects/Disney/IMG_0079-1536x1152.jpeg",
 			"images": [
-				{ "url": "../img/portfolio/03-large.jpg" },
-				{ "url": "../img/portfolio/03-large.jpg" },
-				{ "url": "../img/portfolio/03-large.jpg" }
+				{ "url": "../img/projects/Disney/IMG_0099.jpg" },
+				{ "url": "../img/projects/Disney/IMG_0081.JPEG" },
+				{ "url": "../img/projects/Disney/IMG_0439.JPEG" },
+				{ "url": "../img/projects/Disney/IMG_0456.jpg" },
+				{ "url": "../img/projects/Disney/IMG_0884.jpg" },
+				{ "url": "../img/projects/Disney/IMG_0885.JPEG" },
+				{ "url": "../img/projects/Disney/IMG_0962.jpg" },
+				{ "url": "../img/projects/Disney/IMG_0966.jpg" },
+				{ "url": "../img/projects/Disney/IMG_1221.jpg" },
+				{ "url": "../img/projects/Disney/IMG_1504.JPEG" },
+				{ "url": "../img/projects/Disney/IMG_8563.JPEG" },
+				{ "url": "../img/projects/Disney/IMG_9877.jpg" },
+				{ "url": "../img/projects/Disney/PHOTO-2021-07-20-19-33-24.jpg" },
+				{ "url": "../img/projects/Disney/PHOTO-2021-07-26-19-39-55.jpg" },
+				{ "url": "../img/projects/Disney/PHOTO-2021-08-05-17-52-23.jpg" },
+				{ "url": "../img/projects/Disney/PHOTO-2021-08-16-16-30-17.jpg" }
 			]
 		},
 		{
-			"title": "test4",
+			"title": "Fulton",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus, massa non tristique posuere, turpis justo tristique dui, id cursus arcu metus et orci. Mauris luctus quam quis convallis volutpat. Sed fermentum, velit nec mattis tempus, dolor magna commodo mi, nec accumsan mauris massa fringilla urna. Vestibulum id dui sapien. Mauris lobortis pharetra lorem, eu tempor justo hendrerit sit amet. Morbi ac dolor arcu. Aenean at ultricies ex. Maecenas dapibus tortor in convallis aliquam. Phasellus massa dolor, consequat a erat ut, mollis varius nisi. Nullam ultricies, eros ut pretium bibendum, tellus risus venenatis lorem, ut egestas ante elit nec purus. ",
-			"productImage": "../img/portfolio/04-small.jpg",
+			"productImage": "../img/projects/Fulton/PHOTO-2023-11-21-10-51-46 2.jpg",
 			"images": [
-				{ "url": "../img/portfolio/04-large.jpg" },
-				{ "url": "../img/portfolio/04-large.jpg" },
-				{ "url": "../img/portfolio/04-large.jpg" }
+				{ "url": "../img/projects/Fulton/2.jpg" },
+				{ "url": "../img/projects/Fulton/5492acbf-c211-4c92-ba68-768bf591ced1.jpg" },
+				{ "url": "../img/projects/Fulton/8f6086b8-e596-4ebd-925c-f039cd0df349.jpg" },
+				{ "url": "../img/projects/Fulton/IMG_0118.JPG" },
+				{ "url": "../img/projects/Fulton/PHOTO-2023-11-21-10-51-45 (1).jpg" },
+				{ "url": "../img/projects/Fulton/PHOTO-2023-11-21-10-51-45 (1)21.jpg" },
+				{ "url": "../img/projects/Fulton/PHOTO-2023-11-21-10-51-45 (1)234.jpg" },
+				{ "url": "../img/projects/Fulton/PHOTO-2023-11-21-10-51-45.jpg" },
+				{ "url": "../img/projects/Fulton/PHOTO-2023-11-21-10-51-45 2.jpg" }
 			]
 		},
 		{
-			"title": "test5",
+			"title": "Louvre",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus, massa non tristique posuere, turpis justo tristique dui, id cursus arcu metus et orci. Mauris luctus quam quis convallis volutpat. Sed fermentum, velit nec mattis tempus, dolor magna commodo mi, nec accumsan mauris massa fringilla urna. Vestibulum id dui sapien. Mauris lobortis pharetra lorem, eu tempor justo hendrerit sit amet. Morbi ac dolor arcu. Aenean at ultricies ex. Maecenas dapibus tortor in convallis aliquam. Phasellus massa dolor, consequat a erat ut, mollis varius nisi. Nullam ultricies, eros ut pretium bibendum, tellus risus venenatis lorem, ut egestas ante elit nec purus. ",
-			"productImage": "../img/portfolio/05-small.jpg",
+			"productImage": "../img/projects/Louvre/IMG_2143.JPEG",
 			"images": [
-				{ "url": "../img/portfolio/05-large.jpg" },
-				{ "url": "../img/portfolio/05-large.jpg" },
-				{ "url": "../img/portfolio/05-large.jpg" }
+				{ "url": "../img/projects/Louvre/IMG_1990.JPEG" },
+				{ "url": "../img/projects/Louvre/IMG_2379.JPEG" },
+				{ "url": "../img/projects/Louvre/IMG_2224.JPEG" },
+				{ "url": "../img/projects/Louvre/IMG_2841.jpg" },
+				{ "url": "../img/projects/Louvre/IMG_2122.jpg" },
+				{ "url": "../img/projects/Louvre/IMG_2935.JPEG" }
 			]
 		},
 		{
-			"title": "test6",
+			"title": "Roland Garos",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus, massa non tristique posuere, turpis justo tristique dui, id cursus arcu metus et orci. Mauris luctus quam quis convallis volutpat. Sed fermentum, velit nec mattis tempus, dolor magna commodo mi, nec accumsan mauris massa fringilla urna. Vestibulum id dui sapien. Mauris lobortis pharetra lorem, eu tempor justo hendrerit sit amet. Morbi ac dolor arcu. Aenean at ultricies ex. Maecenas dapibus tortor in convallis aliquam. Phasellus massa dolor, consequat a erat ut, mollis varius nisi. Nullam ultricies, eros ut pretium bibendum, tellus risus venenatis lorem, ut egestas ante elit nec purus. ",
-			"productImage": "../img/portfolio/06-small.jpg",
+			"productImage": "../img/projects/RolandGaros/IMG_3585.jpg",
 			"images": [
-				{ "url": "../img/portfolio/06-large.jpg" },
-				{ "url": "../img/portfolio/06-large.jpg" },
-				{ "url": "../img/portfolio/06-large.jpg" }
+				{ "url": "../img/projects/RolandGaros/IMG_1864.JPEG" },
+				{ "url": "../img/projects/RolandGaros/IMG_2347.JPEG" },
+				{ "url": "../img/projects/RolandGaros/IMG_2442.jpg" },
+				{ "url": "../img/projects/RolandGaros/IMG_3214.JPEG" }
 			]
 		},
 		{
-			"title": "test7",
+			"title": "TGI",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus, massa non tristique posuere, turpis justo tristique dui, id cursus arcu metus et orci. Mauris luctus quam quis convallis volutpat. Sed fermentum, velit nec mattis tempus, dolor magna commodo mi, nec accumsan mauris massa fringilla urna. Vestibulum id dui sapien. Mauris lobortis pharetra lorem, eu tempor justo hendrerit sit amet. Morbi ac dolor arcu. Aenean at ultricies ex. Maecenas dapibus tortor in convallis aliquam. Phasellus massa dolor, consequat a erat ut, mollis varius nisi. Nullam ultricies, eros ut pretium bibendum, tellus risus venenatis lorem, ut egestas ante elit nec purus. ",
-			"productImage": "../img/portfolio/07-small.jpg",
+			"productImage": "../img/projects/TGI/7cd1e892-06a0-4787-92ab-a31d0d196541.jpg",
 			"images": [
-				{ "url": "../img/portfolio/07-large.jpg" },
-				{ "url": "../img/portfolio/07-large.jpg" },
-				{ "url": "../img/portfolio/07-large.jpg" }
+				{ "url": "../img/projects/TGI/IMG_3547.JPG" },
+				{ "url": "../img/projects/TGI/IMG_3443.JPG" },
+				{ "url": "../img/projects/TGI/IMG_3441.JPG" },
+				{ "url": "../img/projects/TGI/IMG_3439.JPG" },
+				{ "url": "../img/projects/TGI/IMG_0250.JPG" },
+				{ "url": "../img/projects/TGI/IMG_0089.JPG" },
+				{ "url": "../img/projects/TGI/IMG_0039.JPG" },
+				{ "url": "../img/projects/TGI/IMG_0038.JPG" },
+				{ "url": "../img/projects/TGI/IMG_6538.JPG" }
 			]
 		},
 		{
-			"title": "test8",
+			"title": "Trigone",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus, massa non tristique posuere, turpis justo tristique dui, id cursus arcu metus et orci. Mauris luctus quam quis convallis volutpat. Sed fermentum, velit nec mattis tempus, dolor magna commodo mi, nec accumsan mauris massa fringilla urna. Vestibulum id dui sapien. Mauris lobortis pharetra lorem, eu tempor justo hendrerit sit amet. Morbi ac dolor arcu. Aenean at ultricies ex. Maecenas dapibus tortor in convallis aliquam. Phasellus massa dolor, consequat a erat ut, mollis varius nisi. Nullam ultricies, eros ut pretium bibendum, tellus risus venenatis lorem, ut egestas ante elit nec purus. ",
-			"productImage": "../img/portfolio/08-small.jpg",
+			"productImage": "../img/projects/Trigone/IMG_3285.JPG",
 			"images": [
-				{ "url": "../img/portfolio/08-large.jpg" },
-				{ "url": "../img/portfolio/08-large.jpg" },
-				{ "url": "../img/portfolio/08-large.jpg" }
+				{ "url": "../img/projects/Trigone/IMG_2770.JPG" },
+				{ "url": "../img/projects/Trigone/IMG_2734.JPG" },
+				{ "url": "../img/projects/Trigone" }
 			]
 		},
 		{
-			"title": "Project Title",
-			"largeImage": "../img/portfolio/09-large.jpg",
-			"productImage": "../img/portfolio/09-small.jpg"
+			"title": "Versailles",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus, massa non tristique posuere, turpis justo tristique dui, id cursus arcu metus et orci. Mauris luctus quam quis convallis volutpat. Sed fermentum, velit nec mattis tempus, dolor magna commodo mi, nec accumsan mauris massa fringilla urna. Vestibulum id dui sapien. Mauris lobortis pharetra lorem, eu tempor justo hendrerit sit amet. Morbi ac dolor arcu. Aenean at ultricies ex. Maecenas dapibus tortor in convallis aliquam. Phasellus massa dolor, consequat a erat ut, mollis varius nisi. Nullam ultricies, eros ut pretium bibendum, tellus risus venenatis lorem, ut egestas ante elit nec purus. ",
+			"productImage": "../img/projects/Versailles",
+			"images": [
+				{ "url": "../img/projects/Versailles" },
+				{ "url": "../img/projects/Versailles" },
+				{ "url": "../img/projects/Versailles" }
+			]
 		}
 	],
 	"Services": [
