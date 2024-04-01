@@ -9,8 +9,6 @@ const App = () => {
   return (
       <div >
           <BrowserRouter>
-
-
               <Routes>
                   <Route
                       index
@@ -25,8 +23,6 @@ const App = () => {
               </Routes>
           </BrowserRouter>
       </div>
-
   );
 };
-
 export default App;

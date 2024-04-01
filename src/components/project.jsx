@@ -4,6 +4,12 @@ import JsonData from "../data/data.json";
 import {Navigation} from "./navigation";
 import "../App";
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+import { Pagination } from 'swiper/modules';
+
 const Project = () => {
 	let params = useParams();
 
@@ -40,14 +46,10 @@ const Project = () => {
 					</div>
 					</div>
 
-
-					<div className="slideshowimages">
+					{/* 	<div className="slideshowimages">
 						{d.images &&
 							d.images.map((image, index) => (
 								<div className="card">
-
-
-
 								<img
 									key={index}
 									src={image.url}
@@ -55,6 +57,21 @@ const Project = () => {
 								/>
 								</div>
 							))}
+					</div>
+				*/}
+					<div>
+						<Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+							{d.images &&
+								d.images.map((image, index) => (
+									<SwiperSlide>
+										<img
+											key={index}
+											src={image.url}
+											alt={`${d.title} - ${index + 1}`}
+										/>
+									</SwiperSlide>
+								))}
+						</Swiper>
 					</div>
 				</div>
 			))}

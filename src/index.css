@@ -400,9 +400,10 @@ header .intro-text {
 	position: relative;
 	margin: 0;
 }
-#portfolio .hover-bg img{
+#portfolio .hover-bg img {
+	height: 33.33333%;
 	min-width: 100%;
-	height: calc(100% / 3);
+	object-fit: cover;
 }
 .hover-bg .hover-text {
 	position: absolute;
@@ -756,7 +757,6 @@ label {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
 	min-height: 100%;
 }
 .project-hero-img {
@@ -780,9 +780,14 @@ label {
 	width: 100%;
 	border: 2px solid red ;
 }
-
-
-
+.project .mySwiper{
+	height: 90vh;
+	padding: 20px
+}
+.project .mySwiper img{
+	max-height: 100%;
+	object-fit: contain;
+}
 .project-description{
 	background-color: #f6f6f6;
 	padding: 100px 0;
