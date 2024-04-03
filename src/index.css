@@ -30,13 +30,13 @@ h4 {
 h2 {
 	text-transform: uppercase;
 	margin: 0 0 20px;
-	font-weight: 800;
+	font-weight: 900;
 	font-size: 30px;
 	color: #333;
 }
 h3 {
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 800;
 	color: #333;
 }
 h4 {
@@ -68,6 +68,10 @@ a:focus {
 ul,
 ol {
 	list-style: none;
+}
+ul,
+li {
+	font-weight: 300;
 }
 ul,
 ol {
@@ -165,7 +169,7 @@ img.nav-logo {
 .section-title h2 {
 	position: relative;
 	margin-top: 10px;
-	margin-bottom: 15px;
+	margin-bottom: 5s5px;
 	padding-bottom: 15px;
 }
 .section-title h2::after {
@@ -225,8 +229,9 @@ a:focus,
 /* Header Section */
 
 header {
-	height: 80vh;
+	height: 90vh;
 	width: 100%;
+	margin-top: 80px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -462,7 +467,8 @@ header .intro-text {
 	margin-right: 15px;
 }
 div#testimonials img {
-	max-height: 160px;
+	max-height: 100px;
+	max-width: 150px;
 	object-fit: contain;
 }
 .testimonial-image,
@@ -510,6 +516,7 @@ div#testimonials img {
 	padding: 100px 0 60px;
 	background: linear-gradient(to right, #5f0000 0%, #b30000 100%);
 	color: rgba(255, 255, 255, 0.75);
+	height: 90vh;
 }
 #contact .section-title {
 	margin-bottom: 40px;
@@ -759,7 +766,7 @@ label {
 	flex-direction: column;
 	justify-content: center;
 	min-height: 100%;
-	margin-top: 80px;
+
 }
 .project-hero-img {
 	width: 100% !important;

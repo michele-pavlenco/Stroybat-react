@@ -193,7 +193,7 @@
 			"name": "SpieBatignolles"
 		},
 		{
-			"img": "img/testimonials/Urbaine.jpeg",
+			"img": "img/testimonials/Urbaine.png",
 			"text": "\"Some Text?\"",
 			"name": "Urbaine"
 		},
@@ -203,7 +203,7 @@
 			"name": "Gcc"
 		},
 		{
-			"img": "img/testimonials/IsoSystem.jpeg",
+			"img": "img/testimonials/IsoSystem.png",
 			"text": "\"Some Text?\"",
 			"name": "IsoSystem"
 		},

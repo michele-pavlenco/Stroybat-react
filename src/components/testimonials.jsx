@@ -21,7 +21,7 @@ export const Testimonials = (props) => {
 				autoplay={{ delay: 0, disableOnInteraction: false }}
 				autoplayDisableOnInteraction={false}
 				speed={3000}
-				/*	allowTouchMove={false}  da attivare solo per mobile     */
+				allowTouchMove={false}  
 				style={{
 					maxHeight: "200px",
 				}}>
