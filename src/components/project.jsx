@@ -2,17 +2,22 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import JsonData from "../data/data.json";
 import {Navigation} from "./navigation";
-import "../App";
-
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Contact } from "./contact";
+import "../data/data.json"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { Pagination } from 'swiper/modules';
 
 const Project = () => {
 	let params = useParams();
-
+	const contactData = {
+		address: "90 Avenue de Boneuil 94210 Saint-Maur-des-Fosses",
+		phone: "+33 6 43 31 21 80",
+		email: "contact@stroybat.fr"
+	 };
 	return (
 
 		<div>
@@ -75,6 +80,7 @@ const Project = () => {
 					</div>
 				</div>
 			))}
+			 <Contact data={contactData}  />
 		</div>
 	);
 };
