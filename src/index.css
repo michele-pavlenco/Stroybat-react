@@ -738,6 +738,7 @@ label {
 
 .swiper-slide img {
 	width: 100%;
+	height: 100%;
 	object-fit: contain;
 	aspect-ratio: 1/1;
 	-webkit-user-select: none; /* Safari */
@@ -758,6 +759,7 @@ label {
 	flex-direction: column;
 	justify-content: center;
 	min-height: 100%;
+	margin-top: 80px;
 }
 .project-hero-img {
 	width: 100% !important;
@@ -778,12 +780,14 @@ label {
 }
 .slideshowimages .card img {
 	width: 100%;
-	border: 2px solid red ;
+	border: 2px solid #4D0000 ;
 }
 .project .mySwiper{
 	height: 90vh;
-	padding: 20px
+	padding: 20px;
+	margin-bottom: 80px;
 }
+
 .project .mySwiper img{
 	max-height: 100%;
 	object-fit: contain;

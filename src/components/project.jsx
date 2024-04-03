@@ -9,6 +9,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+
 import { Pagination } from 'swiper/modules';
 
 const Project = () => {
@@ -65,7 +66,11 @@ const Project = () => {
 					</div>
 				*/}
 					<div>
-						<Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+						<Swiper pagination={true} modules={[Pagination]} className="mySwiper"
+						style={{
+							"--swiper-pagination-color": "#B50D04"		
+						  }}
+						>
 							{d.images &&
 								d.images.map((image, index) => (
 									<SwiperSlide>
