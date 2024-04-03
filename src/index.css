@@ -7,14 +7,18 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
 }
-
+/* *{
+	font-family: "Urbanist", sans-serif !important;
+} */
 body,
 html {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Urbanist", sans-serif;
+	/* font-family: "Open Sans", sans-serif; */
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #777;
@@ -810,3 +814,7 @@ label {
 }
 
 /* END Project page*/
+
+.navbar-default .navbar-nav>.active>a{
+	background-color: transparent !important;
+}
