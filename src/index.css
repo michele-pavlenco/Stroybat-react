@@ -642,6 +642,24 @@ label {
 	color: #608dfd;
 	background: #fff;
 }
+
+#contact .plicy-privacy{
+	display: flex;
+	align-items: center;
+}
+#contact .plicy-privacy input{
+	margin-top: -11px;
+	margin-right: 10px;
+	accent-color: #34495e;
+}
+#contact .plicy-privacy p{
+	cursor: default;
+}
+#contact .plicy-privacy a{
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
 /* Footer Section*/
 #footer {
 	background: #f6f6f6;

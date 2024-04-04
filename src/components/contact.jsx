@@ -1,6 +1,7 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
+import { Link } from 'react-router-dom';
 
 const initialState = {
   name: "",
@@ -90,6 +91,10 @@ export const Contact = (props) => {
                     onChange={handleChange}
                   ></textarea>
                   <p className="help-block text-danger"></p>
+                </div>
+                <div className="plicy-privacy">
+                <input required type="checkbox"/> <p>J'ai lu la <Link to="/policy">politique de confidentialité</Link> et j'accepte le traitement de mes données personnelles</p>
+
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
