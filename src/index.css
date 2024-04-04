@@ -7,7 +7,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
@@ -424,11 +423,14 @@ header .intro-text {
 		rgb(179, 0, 0) 0%,
 		rgba(0, 0, 0, 0.8) 100%
 	);
-	padding: 30% 0 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
 	transition: all 0.5s;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .hover-bg .hover-text > h4 {
@@ -520,7 +522,6 @@ div#testimonials img {
 	padding: 100px 0 60px;
 	background: linear-gradient(to right, #5f0000 0%, #b30000 100%);
 	color: rgba(255, 255, 255, 0.75);
-	height: 90vh;
 }
 #contact .section-title {
 	margin-bottom: 40px;
@@ -643,19 +644,19 @@ label {
 	background: #fff;
 }
 
-#contact .plicy-privacy{
+#contact .plicy-privacy {
 	display: flex;
 	align-items: center;
 }
-#contact .plicy-privacy input{
+#contact .plicy-privacy input {
 	margin-top: -11px;
 	margin-right: 10px;
 	accent-color: #34495e;
 }
-#contact .plicy-privacy p{
+#contact .plicy-privacy p {
 	cursor: default;
 }
-#contact .plicy-privacy a{
+#contact .plicy-privacy a {
 	color: white;
 	font-weight: bold;
 	cursor: pointer;
@@ -788,7 +789,6 @@ label {
 	flex-direction: column;
 	justify-content: center;
 	min-height: 100%;
-
 }
 .project-hero-img {
 	width: 100% !important;
@@ -802,37 +802,36 @@ label {
 	width: 100%;
 	padding: 50px 0px;
 }
-.slideshowimages .card{
-	width:80%;
+.slideshowimages .card {
+	width: 80%;
 	margin: 0 auto;
 	padding: 10px;
 }
 .slideshowimages .card img {
 	width: 100%;
-	border: 2px solid #4D0000 ;
+	border: 2px solid #4d0000;
 }
-.project .mySwiper{
+.project .mySwiper {
 	height: 90vh;
 	padding: 20px;
 	margin-bottom: 80px;
 }
 
-.project .mySwiper img{
+.project .mySwiper img {
 	max-height: 100%;
 	object-fit: contain;
 }
-.project-description{
+.project-description {
 	background-color: #f6f6f6;
 	padding: 100px 0;
-
 }
-.project-description .container{
+.project-description .container {
 	width: 80%;
 	margin: 0 auto;
 }
 
 /* END Project page*/
 
-.navbar-default .navbar-nav>.active>a{
+.navbar-default .navbar-nav > .active > a {
 	background-color: transparent !important;
 }

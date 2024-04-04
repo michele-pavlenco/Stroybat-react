@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-export const Testimonials = (props) => {
+const Testimonials = (props) => {
 	return (
 		<div id="testimonials">
 			<div className="section-title text-center">
@@ -19,9 +19,8 @@ export const Testimonials = (props) => {
 				loop={true}
 				freeMode={true}
 				autoplay={{ delay: 0, disableOnInteraction: false }}
-				autoplayDisableOnInteraction={false}
 				speed={3000}
-				allowTouchMove={false}  
+				allowTouchMove={false}
 				style={{
 					maxHeight: "200px",
 				}}>
@@ -41,3 +40,5 @@ export const Testimonials = (props) => {
 		</div>
 	);
 };
+
+export default Testimonials;

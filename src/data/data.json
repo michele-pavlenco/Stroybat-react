@@ -58,12 +58,18 @@
 			"productImage": "../img/projects/Fulton/PHOTO-2023-11-21-10-51-46 2.jpg",
 			"images": [
 				{ "url": "../img/projects/Fulton/2.jpg" },
-				{ "url": "../img/projects/Fulton/5492acbf-c211-4c92-ba68-768bf591ced1.jpg" },
-				{ "url": "../img/projects/Fulton/8f6086b8-e596-4ebd-925c-f039cd0df349.jpg" },
+				{
+					"url": "../img/projects/Fulton/5492acbf-c211-4c92-ba68-768bf591ced1.jpg"
+				},
+				{
+					"url": "../img/projects/Fulton/8f6086b8-e596-4ebd-925c-f039cd0df349.jpg"
+				},
 				{ "url": "../img/projects/Fulton/IMG_0118.JPG" },
 				{ "url": "../img/projects/Fulton/PHOTO-2023-11-21-10-51-45 (1).jpg" },
 				{ "url": "../img/projects/Fulton/PHOTO-2023-11-21-10-51-45 (1)21.jpg" },
-				{ "url": "../img/projects/Fulton/PHOTO-2023-11-21-10-51-45 (1)234.jpg" },
+				{
+					"url": "../img/projects/Fulton/PHOTO-2023-11-21-10-51-45 (1)234.jpg"
+				},
 				{ "url": "../img/projects/Fulton/PHOTO-2023-11-21-10-51-45.jpg" },
 				{ "url": "../img/projects/Fulton/PHOTO-2023-11-21-10-51-45 2.jpg" }
 			]

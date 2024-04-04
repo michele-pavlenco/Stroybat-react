@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Image = ({ title, largeImage, smallImage }) => {
+const Image = ({ title, largeImage, smallImage }) => {
 	return (
 		<div className="portfolio-item">
 			<div className="hover-bg">
@@ -22,3 +22,5 @@ export const Image = ({ title, largeImage, smallImage }) => {
 		</div>
 	);
 };
+
+export default Image;
