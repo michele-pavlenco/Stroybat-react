@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-const Testimonials = (props) => {
+export const Testimonials = (props) => {
 	return (
 		<div id="testimonials">
 			<div className="section-title text-center">
