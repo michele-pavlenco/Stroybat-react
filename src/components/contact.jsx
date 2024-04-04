@@ -1,7 +1,7 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const initialState = {
   name: "",
@@ -16,16 +16,20 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
+
     /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
-    
+
     emailjs
-      .sendForm("service_qsa3swb", "template_3omzl34", e.target, "qrG-omw3Xyx432NGV")
+      .sendForm(
+        "service_qsa3swb",
+        "template_3omzl34",
+        e.target,
+        "qrG-omw3Xyx432NGV"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -45,8 +49,9 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Entrer en contact</h2>
                 <p>
-                  Veuillez remplir le formulaire ci-dessous pour nous envoyer un e-mail et nous le ferons
-                  je vous répondrai dans les plus brefs délais.
+                  Veuillez remplir le formulaire ci-dessous pour nous envoyer un
+                  e-mail et nous le ferons je vous répondrai dans les plus brefs
+                  délais.
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
@@ -54,13 +59,13 @@ export const Contact = (props) => {
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
-                          type="text"
-                          id="name"
-                          name="from_name" // Modificato da user_name a from_name
-                          className="form-control"
-                          placeholder="Name"
-                          required
-                          onChange={handleChange}
+                        type="text"
+                        id="name"
+                        name="from_name" // Modificato da user_name a from_name
+                        className="form-control"
+                        placeholder="Name"
+                        required
+                        onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -68,13 +73,13 @@ export const Contact = (props) => {
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
-                          type="email"
-                          id="email"
-                          name="reply_to" // Modificato da user_email a reply_to
-                          className="form-control"
-                          placeholder="Email"
-                          required
-                          onChange={handleChange}
+                        type="email"
+                        id="email"
+                        name="reply_to" // Modificato da user_email a reply_to
+                        className="form-control"
+                        placeholder="Email"
+                        required
+                        onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -82,8 +87,8 @@ export const Contact = (props) => {
                 </div>
                 <div className="form-group">
                   <textarea
-                      name="message"
-                      id="message"
+                    name="message"
+                    id="message"
                     className="form-control"
                     rows="4"
                     placeholder="Message"
@@ -93,8 +98,12 @@ export const Contact = (props) => {
                   <p className="help-block text-danger"></p>
                 </div>
                 <div className="plicy-privacy">
-                <input required type="checkbox"/> <p>J'ai lu la <Link to="/policy">politique de confidentialité</Link> et j'accepte le traitement de mes données personnelles</p>
-
+                  <input required type="checkbox" />{" "}
+                  <p>
+                    J'ai lu la{" "}
+                    <Link to="/policy">politique de confidentialité</Link> et
+                    j'accepte le traitement de mes données personnelles
+                  </p>
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">

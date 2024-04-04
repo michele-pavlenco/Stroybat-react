@@ -1,8 +1,7 @@
 import Project from "./components/project";
 import Home from "./pages/Home";
-import { Contact } from "./components/contact";
 import Policy from "./components/policy";
-import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import NotFoundPage from "./pages/NotFoundPage";
 
@@ -21,10 +20,6 @@ const App = () => {
 						element={<Project />}
 					/>
 					<Route
-						path="/contact"
-						component={Contact}
-					/>
-					<Route
 						path="/policy"
 						element={<Policy />}
 					/>
@@ -34,6 +29,7 @@ const App = () => {
 					/>
 				</Routes>
 			</BrowserRouter>
+            
 		</div>
 	);
 };
