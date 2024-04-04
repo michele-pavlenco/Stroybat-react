@@ -1,29 +1,25 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import JsonData from "../data/data.json";
-import {Navigation} from "./navigation";
+import { Navigation } from "./navigation";
 import { Contact } from "./contact";
-import "../data/data.json"
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import "../data/data.json";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Swiper, SwiperSlide } from "swiper/react";
 
-
-
-import { Pagination } from 'swiper/modules';
+import { Pagination } from "swiper/modules";
 
 const Project = () => {
 	let params = useParams();
 	const contactData = {
 		address: "90 Avenue de Boneuil 94210 Saint-Maur-des-Fosses",
 		phone: "+33 6 43 31 21 80",
-		email: "contact@stroybat.fr"
-	 };
+		email: "contact@stroybat.fr",
+	};
 	return (
-
 		<div>
-			<Navigation/>
+			<Navigation />
 			{JsonData.Gallery.filter((d) => d.title === params.projectId).map((d) => (
 				<div
 					className="project"
@@ -47,10 +43,9 @@ const Project = () => {
 					</header>
 
 					<div className="project-description">
-					<div className="container">
-
-						<p>{d.description}</p>
-					</div>
+						<div className="container">
+							<p>{d.description}</p>
+						</div>
 					</div>
 
 					{/* 	<div className="slideshowimages">
@@ -67,11 +62,13 @@ const Project = () => {
 					</div>
 				*/}
 					<div>
-						<Swiper pagination={true} modules={[Pagination]} className="mySwiper"
-						style={{
-							"--swiper-pagination-color": "#B50D04"		
-						  }}
-						>
+						<Swiper
+							pagination={true}
+							modules={[Pagination]}
+							className="mySwiper"
+							style={{
+								"--swiper-pagination-color": "#B50D04",
+							}}>
 							{d.images &&
 								d.images.map((image, index) => (
 									<SwiperSlide>
@@ -86,7 +83,7 @@ const Project = () => {
 					</div>
 				</div>
 			))}
-			 <Contact data={contactData}  />
+			<Contact data={contactData} />
 		</div>
 	);
 };
