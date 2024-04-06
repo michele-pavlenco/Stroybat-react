@@ -3,8 +3,6 @@ import { useParams } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import JsonData from "../data/data.json";
-// import "swiper/css";
-// import "swiper/css/pagination";
 
 const Project = () => {
 	let { projectId } = useParams();
