@@ -9,6 +9,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import JsonData from "./data/data.json";
 import "./App.css";
 
+
 const App = () => {
 	const [landingPageData, setLandingPageData] = useState({});
 	useEffect(() => {

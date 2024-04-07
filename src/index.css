@@ -533,6 +533,10 @@ div#testimonials img {
 #contact .section-title p {
 	font-size: 16px;
 }
+#contact .myflex {
+    height: 70px;
+    display: flex;
+}
 #contact h2 {
 	color: #fff;
 	margin-top: 10px;
@@ -653,7 +657,6 @@ label {
 	align-items: center;
 }
 #contact .plicy-privacy input {
-	margin-top: -11px;
 	margin-right: 10px;
 	accent-color: #34495e;
 }
@@ -1749,4 +1752,16 @@ h6,
 	display: block;
 	max-width: 100%;
 	height: auto;
+}
+/* policy page  */
+#policy{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#policy h1{
+	font-weight: 900;
+	color: black;
+}
+#policy h2{
+	color: #600100;
 }
