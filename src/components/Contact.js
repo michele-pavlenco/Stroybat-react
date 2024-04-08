@@ -114,14 +114,20 @@ const Contact = (props) => {
               </form>
             </div>
           </div>
-          <div className="col-md-3 col-md-offset-1 contact-info">
+		  <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Informations de contact</h3>
               <p>
                 <span>
                   <i className="fa fa-map-marker"></i> Adresse
                 </span>
-                {props.data ? props.data.address : "loading"}
+                <a
+                  href="https://www.google.com/maps/dir/45.0151164,7.6501508/R%C3%A9sidence+Les+M%C3%BBriers,+90+Av.+de+Bonneuil,+94210+Saint-Maur-des-Foss%C3%A9s,+Francia/@46.777085,-0.3032372,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x47e60c614a2109ff:0xd11aaca14fdfb383!2m2!1d2.5014569!2d48.7886968?entry=ttu"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {props.data ? props.data.address : "loading"}
+                </a>
               </p>
             </div>
             <div className="contact-item">
@@ -129,7 +135,9 @@ const Contact = (props) => {
                 <span>
                   <i className="fa fa-phone"></i> Téléphone
                 </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                <a href="tel:+4733378901" target="_blank" rel="noreferrer">
+                  {props.data ? props.data.phone : "loading"}
+                </a>
               </p>
             </div>
             <div className="contact-item">
@@ -137,7 +145,9 @@ const Contact = (props) => {
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
-                {props.data ? props.data.email : "loading"}
+                <a href="mailto:contact@stroybat.fr" target="_blank " rel="noreferrer">
+                  {props.data ? props.data.email : "loading"}
+                </a>
               </p>
             </div>
           </div>

@@ -33,6 +33,7 @@ h2,
 h3,
 h4 {
 	font-family: "Raleway", sans-serif;
+	cursor: default;
 }
 h2 {
 	text-transform: uppercase;
@@ -55,9 +56,11 @@ h5 {
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 20px;
+	cursor: default;
 }
 p {
 	font-size: 15px;
+	cursor: default;
 }
 p.intro {
 	margin: 12px 0 0;
@@ -206,6 +209,7 @@ img.nav-logo {
 	border-radius: 25px;
 	transition: all 0.5s linear;
 	border: 0;
+	text-decoration: none;
 }
 .btn-custom:hover,
 .btn-custom:focus,
@@ -663,10 +667,17 @@ label {
 #contact .plicy-privacy p {
 	cursor: default;
 }
-#contact .plicy-privacy a {
+#contact a {
 	color: white;
 	font-weight: bold;
 	cursor: pointer;
+	text-decoration: none;
+}
+#contact .plicy-privacy a {
+	text-decoration: underline;
+}
+#contact p{
+	cursor: default;
 }
 /* Footer Section*/
 #footer {
