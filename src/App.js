@@ -9,37 +9,25 @@ import NotFoundPage from "./pages/NotFoundPage";
 import JsonData from "./data/data.json";
 import "./App.css";
 
-
 const App = () => {
-	const [landingPageData, setLandingPageData] = useState({});
-	useEffect(() => {
-		setLandingPageData(JsonData);
-	}, []);
-	return (
-		<>
-			<Navigation />
-			<BrowserRouter>
-				<Routes>
-					<Route
-						index
-						element={<Home />}
-					/>
-					<Route
-						path="project/:projectId"
-						element={<Project />}
-					/>
-					<Route
-						path="/policy"
-						element={<Policy />}
-					/>
-					<Route
-						path="*"
-						element={<NotFoundPage />}
-					/>
-				</Routes>
-				<Contact data={landingPageData.Contact} />
-			</BrowserRouter>
-		</>
-	);
+  const [landingPageData, setLandingPageData] = useState({});
+
+  useEffect(() => {
+    setLandingPageData(JsonData);
+  }, []);
+
+  return (
+    <BrowserRouter>
+      <Navigation />
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="project/:projectId" element={<Project />} />
+        <Route path="/policy" element={<Policy />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
+      <Contact data={landingPageData.Contact} />
+    </BrowserRouter>
+  );
 };
+
 export default App;

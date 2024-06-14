@@ -1,162 +1,67 @@
 import React from "react";
-import { Container, Navbar, Nav } from "react-bootstrap";
+import { Link, useLocation } from "react-router-dom";
 import Logo from "../img/logoStroybat.png";
+import { BsBuildings } from "react-icons/bs";
+import { BiHomeAlt2 } from "react-icons/bi";
+import { FaMagnifyingGlass } from "react-icons/fa6";
+import { TbMailUp } from "react-icons/tb";
+import clsx from "clsx";
+import useScrollspy from "../hooks/useScrollspy";
 
 const Navigation = () => {
+  const location = useLocation();
+  const ids = ["header", "features", "portfolio", "contact"];
+  const activeId = useScrollspy(ids, 100); // Adjust the offset as needed
+
   return (
-    // <Navbar
-    // 	collapseOnSelect
-    // 	expand="lg"
-    // 	bg="light"
-    // 	fixed="top">
-    // 	<Container>
-    // 		<Navbar.Brand href="../">
-    // 			<img
-    // 				src={Logo}
-    // 				alt="Logo"
-    // 				className="nav-logo"
-    // 			/>
-    // 		</Navbar.Brand>
-    // 		<Navbar.Toggle
-    // 			aria-controls="responsive-navbar-nav"
-    // 			className="custom-toggler navbar-toggle">
-    // 			<span className="icon-bar"></span>
-    // 			<span className="icon-bar"></span>
-    // 			<span className="icon-bar"></span>
-    // 		</Navbar.Toggle>
-    // 		<Navbar.Collapse id="responsive-navbar-nav">
-    // 			<Nav className="ml-auto">
-    // 				<Nav.Link
-    // 					href="../#features"
-    // 					className="page-scroll">
-    // 					Features
-    // 				</Nav.Link>
-    // <Nav.Link
-    // 	href="../#about"
-    // 	className="page-scroll">
-    // 	À propos
-    // </Nav.Link>
-    // 				<Nav.Link
-    // 					href="../#services"
-    // 					className="page-scroll">
-    // 					Prestations de service
-    // 				</Nav.Link>
-    // 				<Nav.Link
-    // 					href="../#portfolio"
-    // 					className="page-scroll">
-    // 					Galerie
-    // 				</Nav.Link>
-    // 				<Nav.Link
-    // 					href="../#testimonials"
-    // 					className="page-scroll">
-    // 					Clientèle
-    // 				</Nav.Link>
-    // 				<Nav.Link
-    // 					href="#contact"
-    // 					className="page-scroll">
-    // 					Contact
-    // 				</Nav.Link>
-    // 			</Nav>
-    // 		</Navbar.Collapse>
-    // 	</Container>
-    // </Navbar>
-
-    <Navbar sticky="top"  expand="lg" className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand href="../">
+    <div id="navbar">
+      <div className="container">
+        <a
+          href="/#header"
+          className={clsx("navlink", "logo", { "navlink-active": activeId === "header" })}
+          aria-label="Home"
+        >
           <img src={Logo} alt="Logo" className="nav-logo" />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="../#features" className="page-scroll">
-              Features
-            </Nav.Link>
-            <Nav.Link href="../#about" className="page-scroll">
-              À propos
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+          <div className="link">
+            <BiHomeAlt2 />
+            <p>Home</p>
+          </div>
+        </a>
 
-    // <nav
-    // 	id="menu"
-    // 	className="navbar navbar-default navbar-fixed-top">
-    // 	<div className="container">
-    // 		<div className="navbar-header">
-    // 			<button
-    // 				type="button"
-    // 				className="navbar-toggle collapsed"
-    // 				data-toggle="collapse"
-    // 				data-target="#bs-example-navbar-collapse-1">
-    // 				{" "}
-    // 				<span className="sr-only">Toggle navigation</span>{" "}
-    // 				<span className="icon-bar"></span>{" "}
-    // 				<span className="icon-bar"></span>{" "}
-    // 				<span className="icon-bar"></span>{" "}
-    // 			</button>
-    // 			<a
-    // 				className="navbar-brand page-scroll"
-    // 				href="../">
-    // 				<img
-    // 					className="nav-logo"
-    // 					src={Logo}
-    // 					alt="Logo"
-    // 				/>
-    // 			</a>{" "}
-    // 		</div>
+        <a
+          href="/#features"
+          className={clsx("navlink", { "navlink-active": activeId === "features" })}
+          aria-label="Découvrez"
+        >
+          <div className="link">
+            <FaMagnifyingGlass />
+            <p>Découvrez</p>
+          </div>
+        </a>
 
-    // 		<div
-    // 			className="collapse navbar-collapse"
-    // 			id="bs-example-navbar-collapse-1">
-    // 			<ul className="nav navbar-nav navbar-right">
-    // 				<li>
-    // 					<a
-    // 						href="../#features"
-    // 						className="page-scroll">
-    // 						Features
-    // 					</a>
-    // 				</li>
-    // 				<li>
-    // 					<a
-    // 						href="../#about"
-    // 						className="page-scroll">
-    // 						À propos
-    // 					</a>
-    // 				</li>
-    // 				<li>
-    // 					<a
-    // 						href="../#services"
-    // 						className="page-scroll">
-    // 						Prestations de service
-    // 					</a>
-    // 				</li>
-    // 				<li>
-    // 					<a
-    // 						href="../#portfolio"
-    // 						className="page-scroll">
-    // 						Galerie
-    // 					</a>
-    // 				</li>
-    // 				<li>
-    // 					<a
-    // 						href="../#testimonials"
-    // 						className="page-scroll">
-    // 						Clientèle
-    // 					</a>
-    // 				</li>
-    // 				<li>
-    // 					<a
-    // 						href="#contact"
-    // 						className="page-scroll">
-    // 						contact
-    // 					</a>
-    // 				</li>
-    // 			</ul>
-    // 		</div>
-    // 	</div>
-    // </nav>
+        <a
+          href="/#portfolio"
+          className={clsx("navlink", { "navlink-active": activeId === "portfolio" })}
+          aria-label="Projets"
+        >
+          <div className="link">
+            <BsBuildings />
+            <p>Projets</p>
+          </div>
+        </a>
+
+        <a
+          href="/#contact"
+          className={clsx("navlink", { "navlink-active": activeId === "contact" })}
+          aria-label="Contacte"
+        >
+          <div className="link">
+            <TbMailUp />
+            <p>Contacte</p>
+          </div>
+        </a>
+      </div>
+    </div>
   );
 };
 
