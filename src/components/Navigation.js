@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import {  useLocation } from "react-router-dom";
 import Logo from "../img/logoStroybat.png";
 import { BsBuildings } from "react-icons/bs";
 import { BiHomeAlt2 } from "react-icons/bi";
@@ -9,7 +9,6 @@ import clsx from "clsx";
 import useScrollspy from "../hooks/useScrollspy";
 
 const Navigation = () => {
-  const location = useLocation();
   const ids = ["header", "features", "portfolio", "contact"];
   const activeId = useScrollspy(ids, 100); // Adjust the offset as needed
 
