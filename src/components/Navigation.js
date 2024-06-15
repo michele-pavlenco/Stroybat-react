@@ -1,5 +1,4 @@
 import React from "react";
-import {  useLocation } from "react-router-dom";
 import Logo from "../img/logoStroybat.png";
 import { BsBuildings } from "react-icons/bs";
 import { BiHomeAlt2 } from "react-icons/bi";
