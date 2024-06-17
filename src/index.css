@@ -86,14 +86,14 @@ p.intro {
 }
 
 a {
-	color: #608dfd;
+
 	font-weight: 400;
 }
 
 a:hover,
 a:focus {
 	text-decoration: none;
-	color: #608dfd;
+
 }
 
 ul,
@@ -374,7 +374,7 @@ img.nav-logo {
 	font-size: 15px;
 	font-weight: 500;
 	border-radius: 25px;
-	transition: all 0.5s linear;
+	transition: all 0.7s ;
 	border: 0;
 	text-decoration: none;
 }
@@ -578,17 +578,30 @@ header .intro-text {
 	left: 50%;
 }
 
-#services i.fa {
-	font-size: 42px;
+#services svg {
+
+
+
+
 	width: 120px;
 	height: 120px;
 	padding: 40px 0;
-	background: linear-gradient(to bottom, #5f0000 0%, #b30000 100%);
+	background: linear-gradient(132deg, #5f0000 0%, #b300005b 25%, #de0a0aea 50%, #870e0e47 75%, #b30000 100%);
 	border-radius: 50%;
-	color: #fff;
-	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+	background-size: 400% 400%;
+	animation: BackgroundGradient 5s ease infinite;
 }
-
+@keyframes BackgroundGradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 #services h3 {
 	font-weight: 500;
 	padding: 5px 0;

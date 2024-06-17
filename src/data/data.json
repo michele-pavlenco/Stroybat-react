@@ -155,8 +155,8 @@
 	"Testimonials": [
 		{
 			"img": "img/testimonials/Legendre.png",
-			"text": "\"Some Text?\"",
-			"name": "Legendre"
+			"name": "Vitrage",
+			"text": "Some Text?"
 		},
 		{
 			"img": "img/testimonials/Smac.png",
