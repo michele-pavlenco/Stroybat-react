@@ -8,35 +8,50 @@ const initialState = {
   email: "",
   message: "",
 };
+
 const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [recaptchaToken, setRecaptchaToken] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
+
   const clearState = () => setState({ ...initialState });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!recaptchaToken) {
+      alert("Please complete the reCAPTCHA");
+      return;
+    }
+
     console.log(name, email, message);
-    emailjs
-      .sendForm(
+    try {
+      const result = await emailjs.sendForm(
         "service_qsa3swb",
         "template_3omzl34",
         e.target,
         "qrG-omw3Xyx432NGV"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
       );
+      console.log(result.text);
+      clearState();
+    } catch (error) {
+      console.log(error.text);
+    }
   };
+
+  const handleRecaptcha = async () => {
+    if (window.grecaptcha) {
+      const token = await window.grecaptcha.enterprise.execute(
+        "6LeA9QkqAAAAAGvFA2Pu2zvqnxXUWP_iDNr2FLH8",
+        { action: "submit" }
+      );
+      setRecaptchaToken(token);
+    }
+  };
+
   return (
     <div>
       <div id="contact">
@@ -108,13 +123,17 @@ const Contact = (props) => {
                   </p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
+                <button
+                  type="submit"
+                  className="btn btn-custom btn-lg"
+                  onClick={handleRecaptcha}
+                >
                   Envoyer le message
                 </button>
               </form>
             </div>
           </div>
-		  <div className="col-md-3 col-md-offset-1 contact-info">
+          <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Informations de contact</h3>
               <p>
@@ -156,4 +175,5 @@ const Contact = (props) => {
     </div>
   );
 };
+
 export default Contact;
