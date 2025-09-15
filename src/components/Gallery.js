@@ -10,24 +10,23 @@ const Gallery = (props) => {
 				<div className="section-title">
 					<h2>Gallery</h2>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-						dapibus leonec.
+						Projets récents : façades en bardage bois, vitrages modernes, etc. <br /> Voir les réalisations pour juger de la qualité de notre travail.
 					</p>
 				</div>
 				<div className="row">
 					<div className="portfolio-items">
 						{props.data
 							? props.data.map((d, i) => (
-									<div
-										key={`${d.title}-${i}`}
-										className="col-sm-6 col-md-4 col-lg-4">
-										<Image
-											title={d.title}
-											largeImage={d.largeImage}
-											smallImage={d.productImage}
-										/>
-									</div>
-							  ))
+								<div
+									key={`${d.title}-${i}`}
+									className="col-sm-6 col-md-4 col-lg-4">
+									<Image
+										title={d.title}
+										largeImage={d.largeImage}
+										smallImage={d.productImage}
+									/>
+								</div>
+							))
 							: "Loading..."}
 					</div>
 				</div>

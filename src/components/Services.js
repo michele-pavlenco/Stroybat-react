@@ -10,30 +10,27 @@ const Services = (props) => {
         <div className="section-title">
           <h2>NOS SERVICES</h2>
           <p>
-            Nous proposons une large gamme de services spécialisés en façade,
-            notamment le conseil, la conception, l'installation, la maintenance
-            et les réparations. Nous nous engageons à garantir des solutions sur
-            mesure et de haute qualité pour chaque projet.
+            Nous offrons une gamme complète de services pour façades, incluant : conseil personnalisé, conception sur mesure, installation professionnelle, entretien et réparation. Tous nos projets bénéficient d’une attention particulière à la durabilité, à l’esthétique et à la performance — afin de garantir un résultat au-delà des attentes de nos clients.
           </p>
         </div>
         <div className="row">
           <div className="col-md-4">
             {" "}
-           <GiModernCity/>
+            <GiModernCity />
             <div className="service-desc">
               <h3>Facades Modernes</h3>
             </div>
           </div>
           <div className="col-md-4">
             {" "}
-            <GiBrickWall/>
+            <GiBrickWall />
             <div className="service-desc">
               <h3>Bardage</h3>
             </div>
           </div>
           <div className="col-md-4">
             {" "}
-			<BsBuildings/>
+            <BsBuildings />
             <div className="service-desc">
               <h3>Vitrage</h3>
             </div>

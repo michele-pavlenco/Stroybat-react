@@ -45,7 +45,7 @@ const Contact = (props) => {
   const handleRecaptcha = async () => {
     if (window.grecaptcha) {
       const token = await window.grecaptcha.enterprise.execute(
-        "6LeA9QkqAAAAAGvFA2Pu2zvqnxXUWP_iDNr2FLH8",
+        "665835583989-h40dpgs1t5igo61c3qtsn99igk06r444.apps.googleusercontent.com",
         { action: "submit" }
       );
       setRecaptchaToken(token);

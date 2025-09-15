@@ -5,8 +5,8 @@
 	},
 	"About": {
 		"paragraph": "Dans le monde de l’architecture en constante évolution, choisir un partenaire fiable est essentiel pour créer des projets qui se démarquent et qui durent dans le temps. Notre entreprise se distingue par son dévouement, son souci du détail, son innovation constante et sa polyvalence dans son service. C'est pourquoi nous choisir, c'est choisir la qualité, l'innovation et des solutions durables.",
-		"Why": ["Garanties", "Qualifié", "Attention au détail", "Innovant"],
-		"Why2": ["Solide", "Polyvalent"]
+		"Why": ["Garantie de qualité (assurance qualité)", "Équipe certifiée et qualifiée", "Forte attention au détail", "Approche innovante"],
+		"Why2": ["Structures robustes et durables", "Polyvalence dans tous nos services"]
 	},
 	"Gallery": [
 		{
@@ -251,7 +251,7 @@
 		}
 	],
 	"Contact": {
-		"address": "90 Avenue de Boneuil 94210 Saint-Maur-des-Fosses",
+		"address": "90 Avenue de Bonneuil 94210 Saint-Maur-des-Fosses",
 		"phone": "+33 6 43 31 21 80",
 		"email": "contact@stroybat.fr",
 		"facebook": "fb.com",

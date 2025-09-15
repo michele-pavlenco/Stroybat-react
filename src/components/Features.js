@@ -22,15 +22,7 @@ const Features = (props) => {
 						: "Loading..."} */}
 
           <p className="features-text">
-            La particularité de notre entreprise de construction dans la
-            fourniture de services de construction de façades modernes à partir
-            de tous les types de matériaux est notre engagement profond envers
-            le sérieux, notre passion pour le travail que nous faisons et notre
-            ferme dévouement à la qualité. Nous nous distinguons par notre
-            capacité à anticiper les défis potentiels, à identifier des
-            solutions efficaces et à fournir des résultats exceptionnels, en
-            respectant toujours les délais et en garantissant une exécution
-            précise et minutieuse.
+            Ce qui distingue STROYBAT, c’est notre engagement inébranlable envers la qualité, le sérieux et l’innovation. Nous mettons notre passion au service de façades modernes réalisées avec tous types de matériaux, anticipons les défis, proposons des solutions efficaces et livrons des résultats exceptionnels — toujours dans le respect des délais et avec une exécution rigoureuse.
           </p>
         </div>
       </div>
