@@ -11,7 +11,6 @@ const initialState = {
 
 const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
-  const [recaptchaToken, setRecaptchaToken] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -57,7 +56,6 @@ const Contact = (props) => {
 
     try {
       const token = await window.grecaptcha.enterprise.execute(siteKey, { action: "submit" });
-      setRecaptchaToken(token);
       return token;
     } catch (err) {
       console.error("reCAPTCHA execute error", err);
