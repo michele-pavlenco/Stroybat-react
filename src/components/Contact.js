@@ -22,7 +22,10 @@ const Contact = (props) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!recaptchaToken) {
+
+    // Ensure we execute reCAPTCHA and wait for the token before sending
+    const token = await handleRecaptcha();
+    if (!token) {
       alert("Please complete the reCAPTCHA");
       return;
     }
@@ -43,12 +46,22 @@ const Contact = (props) => {
   };
 
   const handleRecaptcha = async () => {
-    if (window.grecaptcha) {
-      const token = await window.grecaptcha.enterprise.execute(
-        "665835583989-h40dpgs1t5igo61c3qtsn99igk06r444.apps.googleusercontent.com",
-        { action: "submit" }
-      );
+    if (!window.grecaptcha) {
+      console.error("reCAPTCHA script not loaded");
+      return null;
+    }
+
+    // Use environment variable REACT_APP_RECAPTCHA_SITE_KEY in production builds.
+    // Fallback keeps the existing value but you should replace it with the actual site key.
+    const siteKey = process.env.REACT_APP_RECAPTCHA_SITE_KEY || "665835583989-h40dpgs1t5igo61c3qtsn99igk06r444.apps.googleusercontent.com";
+
+    try {
+      const token = await window.grecaptcha.enterprise.execute(siteKey, { action: "submit" });
       setRecaptchaToken(token);
+      return token;
+    } catch (err) {
+      console.error("reCAPTCHA execute error", err);
+      return null;
     }
   };
 
@@ -126,7 +139,6 @@ const Contact = (props) => {
                 <button
                   type="submit"
                   className="btn btn-custom btn-lg"
-                  onClick={handleRecaptcha}
                 >
                   Envoyer le message
                 </button>
