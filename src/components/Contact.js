@@ -51,11 +51,12 @@ const Contact = (props) => {
     }
 
     // Use environment variable REACT_APP_RECAPTCHA_SITE_KEY in production builds.
-    // Fallback keeps the existing value but you should replace it with the actual site key.
-    const siteKey = process.env.REACT_APP_RECAPTCHA_SITE_KEY || "665835583989-h40dpgs1t5igo61c3qtsn99igk06r444.apps.googleusercontent.com";
+    // Fallback to the provided site key for local testing. Do NOT put secret keys here.
+    const siteKey = process.env.REACT_APP_RECAPTCHA_SITE_KEY || "6LdEEdQrAAAAABkVpocRcEx2Y6xxM9Z7SJ5t9B8x";
 
     try {
-      const token = await window.grecaptcha.enterprise.execute(siteKey, { action: "submit" });
+      // reCAPTCHA v3 client API
+      const token = await window.grecaptcha.execute(siteKey, { action: "submit" });
       return token;
     } catch (err) {
       console.error("reCAPTCHA execute error", err);
